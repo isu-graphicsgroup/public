@@ -20,5 +20,14 @@
       <description>In this talk, I will show you how to create a professional academic homepage (or blog) from scratch using the R package ‘blogdown’. I will first introduce some basic concepts of web construction and some essential tools (‘rmarkdown’ and ‘git/github’) that will be used in building websites with ‘blogdown’. Then I will illustrate how to build a website step by step. By the end of the meeting, you are expected to have your own homepage created!</description>
     </item>
     
+    <item>
+      <title> Calendar-based graphics for visualizing people&#39;s daily schedules</title>
+      <link>/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/</guid>
+      <description>Calendars are broadly used in society to display temporal information, and events. This paper describes a new R package with functionality to organize and display temporal data, collected on sub-daily resolution, into a calendar layout. The function frame_calendar uses linear algebra on the date variable to restructure data into a format lending itself to calendar layouts. The user can apply the grammar of graphics to create plots inside each calendar cell, and thus the displays synchronize neatly with ggplot2 graphics.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -6,10 +6,56 @@
     <description>Recent content in Posts on Graphics Group @ ISU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I did this Summer</title>
+      <link>/2018/08/what-i-did-this-summer/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/what-i-did-this-summer/</guid>
+      <description>We will talk informally about things graphics we did this summer and during the Joint Statistical Meetings in Vancouver. &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD We will also discuss what we want to do for the remainder of the semester. Everybody is welcome! ======= We will also discuss what we want to do for the remainder of the semester. Everybody is welcome! &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; update - first post and meeting times</description>
+    </item>
+    
+    <item>
+      <title>Graphical Perception- Theory, Experimentation, and Application to the Development of Graphical Methods</title>
+      <link>/2018/04/graphical-perception--theory-experimentation-and-application-to-the-development-of-graphical-methods/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/graphical-perception--theory-experimentation-and-application-to-the-development-of-graphical-methods/</guid>
+      <description>Cleveland and McGill’s examination of the accuracy of perception of different graphical objects underlies the conventional wisdom that guides our selection of plot types and choices. If you’ve ever wondered why, exactly, pie charts are bad, this paper is the place to start! The paper breaks down graphical perception into a series of elementary tasks which we use while reading charts. We’ll discuss the paper and its implications for creating the most effective plots.</description>
+    </item>
+    
+    <item>
+      <title>Visual inference in RNA-sequencing data </title>
+      <link>/2018/04/visual-inference-in-rna-sequencing-data/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/visual-inference-in-rna-sequencing-data/</guid>
+      <description>Visual inference in RNA-sequencing data In a visual lineup, actual data is plotted among null data, and humans are asked to judge the plot that is different. Creating visual lineups of datasets allows us to assess statistical significance of visual findings, while connecting exploratory data analysis with inferential statistics. We will discuss some of these concepts. I will also present visual lineups for soybean and honeybee RNA-sequencing datasets. This is a work in progress, and so I would be happy to hear any of your advice and input.</description>
+    </item>
+    
+    <item>
+      <title>Using the altair package to create Vega-Lite visualizations from R</title>
+      <link>/2018/04/using-the-altair-package-to-create-vega-lite-visualizations-from-r/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/using-the-altair-package-to-create-vega-lite-visualizations-from-r/</guid>
+      <description>Using R to create browser-rendered interactive visualizations has long been an interest for Graphics Group, and for the larger R community. One of the most-promising efforts out there is the Vega-Lite library: https://vega.github.io/vega-lite/. Bob Rudis is coordinating an effort to provide a native R-interface to the Vega-Lite library: https://github.com/hrbrmstr/vegalite.
+In the Python world, Jake Vanderplas and coworkers offer an API to the latest version of Vega-Lite, the Altair library: https://altair-viz.github.io. In late March, RStudio released to CRAN a package called reticulate: https://github.</description>
+    </item>
+    
+    <item>
+      <title>Parallel and Distributed computing in R</title>
+      <link>/2018/03/parallel-and-distributed-computing-in-r/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/parallel-and-distributed-computing-in-r/</guid>
+      <description>Parallel and Distributed computing is very helpful for Big Data analysis and cloud computing. Besides, for bootstrap, simulation and machine learning model estimation, this technique is extremely helpful to reduce computation time. In this talk, I will briefly discuss about how parallel and distributed computing works and then demonstrate some R packages (‘parallel’, ‘doRedis’. ‘doParallel’) that can be used to parallelize computation.</description>
+    </item>
     
     <item>
       <title>Information Extraction for Handwritten Text</title>
@@ -27,6 +73,15 @@
       
       <guid>/2018/02/blogdown-quick-tutorial/</guid>
       <description>In this talk, I will show you how to create a professional academic homepage (or blog) from scratch using the R package ‘blogdown’. I will first introduce some basic concepts of web construction and some essential tools (‘rmarkdown’ and ‘git/github’) that will be used in building websites with ‘blogdown’. Then I will illustrate how to build a website step by step. By the end of the meeting, you are expected to have your own homepage created!</description>
+    </item>
+    
+    <item>
+      <title> Calendar-based graphics for visualizing people&#39;s daily schedules</title>
+      <link>/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/</guid>
+      <description>Calendars are broadly used in society to display temporal information, and events. This paper describes a new R package with functionality to organize and display temporal data, collected on sub-daily resolution, into a calendar layout. The function frame_calendar uses linear algebra on the date variable to restructure data into a format lending itself to calendar layouts. The user can apply the grammar of graphics to create plots inside each calendar cell, and thus the displays synchronize neatly with ggplot2 graphics.</description>
     </item>
     
     <item>

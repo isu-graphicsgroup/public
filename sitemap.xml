@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/08/what-i-did-this-summer/</loc>
+    <lastmod>2018-08-03T18:12:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/04/graphical-perception--theory-experimentation-and-application-to-the-development-of-graphical-methods/</loc>
+    <lastmod>2018-08-03T16:35:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/04/visual-inference-in-rna-sequencing-data/</loc>
+    <lastmod>2018-04-11T12:21:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/04/using-the-altair-package-to-create-vega-lite-visualizations-from-r/</loc>
+    <lastmod>2018-04-04T12:15:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/03/parallel-and-distributed-computing-in-r/</loc>
+    <lastmod>2018-08-03T16:35:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/02/information-extraction-for-handwritten-text/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-27T19:09:14-06:00</lastmod>
   </url>
   
   <url>
     <loc>/2018/02/blogdown-quick-tutorial/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-27T12:22:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/</loc>
+    <lastmod>2018-02-28T12:51:21-06:00</lastmod>
   </url>
   
   <url>
     <loc>/2018/01/recreating-historical-graphics-with-ggplot2/</loc>
-    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-28T09:41:52-06:00</lastmod>
   </url>
   
   <url>
@@ -23,20 +53,26 @@
   </url>
   
   <url>
+    <loc>/categories/graphics/</loc>
+    <lastmod>2018-08-03T16:35:37-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-03T18:12:25-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-03T18:12:25-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-27T12:22:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   

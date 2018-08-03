@@ -6,13 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta property="og:title" content="Posts" />
-<meta property="og:description" content="A simple Hugo theme based on the Bootstrap v4 blog example." />
+<meta property="og:description" content="We are interested in graphics and computational tools." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/post/" />
 
 
 
-<meta property="og:updated_time" content="2014-04-02T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-02-28T00:00:00&#43;00:00"/>
 
 
 
@@ -25,8 +25,8 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="A simple Hugo theme based on the Bootstrap v4 blog example."/>
-<meta name="generator" content="Hugo 0.36.1" />
+<meta name="twitter:description" content="We are interested in graphics and computational tools."/>
+<meta name="generator" content="Hugo 0.46" />
 
 
     
@@ -40,9 +40,9 @@
     "@type": "Person",
     "name": "Heike Hofmann"
   },
-  "dateModified": "2014-04-02T00:00:00&#43;00:00",
-  "keywords": "development,golang,r,development,go,golang,hugo,plot,r-markdown,regression,templates,themes,",
-  "description": "A simple Hugo theme based on the Bootstrap v4 blog example."
+  "dateModified": "2018-02-28T00:00:00&#43;00:00",
+  "keywords": "graphics,r,",
+  "description": "We are interested in graphics and computational tools."
 }
 </script>
 
@@ -52,7 +52,7 @@
     <title>Graphics Group @ ISU</title>
 
     <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-CoMzlF7G4xk3ftqRr7leobnWP85AuISUJljMFjtTG/UHyP/&#43;bBwWAvBlXkB4VQQk" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet">
 
     
     <!-- RSS 2.0 feed -->
@@ -85,7 +85,7 @@
     <header class="blog-header">
       <div class="container">
         <h1 class="blog-title"><a href="/" rel="home">Graphics Group @ ISU</a></h1>
-        <p class="lead blog-description">A simple Hugo theme based on the Bootstrap v4 blog example.</p>
+        <p class="lead blog-description">We are interested in graphics and computational tools.</p>
       </div>
     </header>
     
@@ -105,22 +105,61 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/2014/04/getting-started-with-hugo/">Getting Started with Hugo</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-04-02T00:00:00Z">Wed Apr 02, 2014</time> by Heike Hofmann in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/development" rel="category tag">Development</a>, <a href="/categories/golang" rel="category tag">golang</a>
+    <h2 class="blog-post-title"><a href="/2018/02/information-extraction-for-handwritten-text/">Information Extraction for Handwritten Text</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-02-28T00:00:00Z">Wed Feb 28, 2018</time> by Nick Berry</p>
+  </header>
+  In forensic handwriting applications practitioners are interested in matching a document with an unknown author with a particular person’s writing style. In order for this to be done computationally it is necessary to first process the documents and try to isolate information in the messy documents. Starting with just blobs of ink, we will isolate important characteristics and start to make steps towards having something usable for performing analyses. This talk will introduce a Shiny app that shows off some of the handwriting processing, and will delve into the Rcpp code that makes it go.
+  <a href='/2018/02/information-extraction-for-handwritten-text/'>Read more →</a>
+</article> 
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/go" rel="tag">go</a>, <a href="/tags/golang" rel="tag">golang</a>, <a href="/tags/hugo" rel="tag">hugo</a>, <a href="/tags/development" rel="tag">development</a>
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2018/02/blogdown-quick-tutorial/">blogdown quick tutorial</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-02-21T00:00:00Z">Wed Feb 21, 2018</time> by Weicheng Zhu in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/r" rel="category tag">R</a>
+
 
 </p>
   </header>
-  Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
-  <a href='/2014/04/getting-started-with-hugo/'>Read more →</a>
+  In this talk, I will show you how to create a professional academic homepage (or blog) from scratch using the R package ‘blogdown’. I will first introduce some basic concepts of web construction and some essential tools (‘rmarkdown’ and ‘git/github’) that will be used in building websites with ‘blogdown’. Then I will illustrate how to build a website step by step. By the end of the meeting, you are expected to have your own homepage created!
+  <a href='/2018/02/blogdown-quick-tutorial/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/">Calendar-based graphics for visualizing people&rsquo;s daily schedules</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-02-08T00:00:00Z">Thu Feb 08, 2018</time> by Earo Wang in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/r" rel="category tag">R</a>
+
+
+</p>
+  </header>
+  Calendars are broadly used in society to display temporal information, and events. This paper describes a new R package with functionality to organize and display temporal data, collected on sub-daily resolution, into a calendar layout. The function frame_calendar uses linear algebra on the date variable to restructure data into a format lending itself to calendar layouts. The user can apply the grammar of graphics to create plots inside each calendar cell, and thus the displays synchronize neatly with ggplot2 graphics.
+  <a href='/2018/02/calendar-based-graphics-for-visualizing-peoples-daily-schedules/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2018/01/recreating-historical-graphics-with-ggplot2/">Recreating Historical Graphics with ggplot2</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-01-31T00:00:00Z">Wed Jan 31, 2018</time> by Sam Tyner</p>
+  </header>
+  At the turn of the 19th century, there seemed to have been a sudden interest in the United States in visualizing census data. There are some pretty amazing plots from this time in “The Statistical Atlas of the United States” and in the collection “African American Photographs Assembled for 1900 Paris Exposition” by W.E.B. Du Bois. In this talk, I’ll walk through the process of recreating a small sample of these visualizations using the NHGIS data finder and modern statistical computing tools.
+  <a href='/2018/01/recreating-historical-graphics-with-ggplot2/'>Read more →</a>
 </article> 
 
 
@@ -145,7 +184,7 @@ Follow the following steps:
   
   <section class="sidebar-module sidebar-module-inset">
     <h4>About</h4>
-    <p>A simple Hugo theme based on the <a href="http://v4-alpha.getbootstrap.com/examples/blog/">Bootstrap v4 blog example</a>.</p>
+    <p>Links to slides of our most recent (or more available) talks. We are still trying to identify the best time to meet this semester (Fall 2018). Please contact Kiegan Rice if you would like to participate but weren&rsquo;t included in the WhenIsGood link.</p>
   </section>
   
 
@@ -155,15 +194,11 @@ Follow the following steps:
     <ol class="list-unstyled">
 
 
-<li><a href="/2014/09/creating-a-new-theme/">Creating a New Theme</a></li>
+<li><a href="/2018/08/what-i-did-this-summer/">What I did this Summer</a></li>
 
-<li><a href="/2014/03/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
+<li><a href="/2018/04/graphical-perception--theory-experimentation-and-application-to-the-development-of-graphical-methods/">Graphical Perception- Theory, Experimentation, and Application to the Development of Graphical Methods</a></li>
 
-<li><a href="/2018/02/blogdown-quick-tutorial/">blogdown quick tutorial</a></li>
-
-<li><a href="/2015/07/hello-r-markdown/">Hello R Markdown</a></li>
-
-<li><a href="/2014/04/hugo-template-primer/">(Hu)go Template Primer</a></li>
+<li><a href="/2018/04/visual-inference-in-rna-sequencing-data/">Visual inference in RNA-sequencing data</a></li>
 
     </ol>
   </section>
@@ -175,9 +210,9 @@ Follow the following steps:
     <h4>Links</h4>
     <ol class="list-unstyled">
       
-      <li><a href="https://example.com">Link 1</a></li>
+      <li><a href="http://dicook.github.io/blog.html">Di&#39;s blog: Visiphilia</a></li>
       
-      <li><a href="https://example.org">Link 2</a></li>
+      <li><a href="https://github.com/isu-graphicsgroup">Graphics Group on GitHub</a></li>
       
     </ol>
   </section>
