@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on Graphics Group @ ISU</title>
+    <link>/categories/graphics/</link>
+    <description>Recent content in Graphics on Graphics Group @ ISU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/graphics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Graphical Perception- Theory, Experimentation, and Application to the Development of Graphical Methods</title>
+      <link>/2018/04/graphical-perception--theory-experimentation-and-application-to-the-development-of-graphical-methods/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/graphical-perception--theory-experimentation-and-application-to-the-development-of-graphical-methods/</guid>
+      <description>Cleveland and McGill’s examination of the accuracy of perception of different graphical objects underlies the conventional wisdom that guides our selection of plot types and choices. If you’ve ever wondered why, exactly, pie charts are bad, this paper is the place to start! The paper breaks down graphical perception into a series of elementary tasks which we use while reading charts. We’ll discuss the paper and its implications for creating the most effective plots.</description>
+    </item>
+    
+  </channel>
+</rss>
